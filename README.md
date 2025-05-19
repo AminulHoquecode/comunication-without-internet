@@ -18,20 +18,23 @@ A desktop application that enables wireless communication between devices using 
 ## Installation
 
 1. Clone this repository:
-```bash
-git clone [repository-url]
-cd wireless-walkie-talkie
+```powershell
+git clone https://github.com/AminulHoquecode/comunication-without-internet.git
+cd comunication-without-internet
 ```
 
-2. Install dependencies:
-```bash
+2. Install Node.js:
+   - Download and install from https://nodejs.org/ (LTS version recommended)
+   - Verify installation by running `node --version` in terminal
+
+3. Install dependencies:
+```powershell
 npm install
 ```
 
-3. Start the application:
-```bash
-npm start
-```
+4. Start the application (choose one method):
+   - Double-click the "Start Walkie-Talkie.bat" file
+   - OR run in terminal: `npm start`
 
 ## Building the Application
 
